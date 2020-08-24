@@ -1,0 +1,15 @@
+a {
+    transition: .5s;
+}
+.bg-collage {
+    background-image: url(../img/collage.jpg);
+}
+.bg-punta-sal {
+    background-image: url(../img/Lugares/puntasal.jpg);
+}
+.bg-ceviche-conchas {
+    background-image: url(../img/Platos/conchas\ negras.png);
+}
+.bg-marinera {
+    background-image: url(../img/Danzas/Portada.jpg);
+}

@@ -5,8 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <div id="menu" class="w-full h-auto fixed mt-5 z-10">
+            <ul class="flex flex-wrap items-center justify-center">
+                <li><a href="#" class="block w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Inicio</a></li>
+                <li><a href="#" class="block w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Lugares <br> Turísticos</a></li>
+                <li><a href="#" class="block w-24 md:w-32 h-16 flex items-center justify-center bg-blue-400 bg-opacity-75"><img src="img/Escudo-Tumbes.png" alt=""></a></li>
+                <li><a href="#" class="block w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Platos <br> Típicos</a></li>
+                <li><a href="#" class="block w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Danzas</a></li>
+            </ul>
+        </div><!--Menu-->
+        <div class="w-full h-screen bg-collage bg-cover bg-center relative">
+            <div class="absolute bottom-0 w-full py-4 bg-blue-700">
+                <div class="mx-12 px-5 text-white border-l-4 border-white">
+                    <h1 class="text-3xl font-bold">Tumbes</h1>
+                    <p>Es el lugar indicado para los que buscan relajarse y conectarse con la naturaleza.</p>
+                </div>
+            </div>
+        </div><!--Banner-->
+    </header>
+    <main>
+        <section class="w-full h-screen bg-punta-sal bg-cover bg-center">
+            <div class="w-full h-full px-16 bg-gray-900 bg-opacity-75 flex flex-col items-start justify-center text-white">
+                <h2 class="text-6xl font-bold leading-none">Balneario de <br> Punta Sal</h2>
+                <p class="w-2/3 text-2xl my-5">Es una de las playas más hermosas y extensas de la costa norte del Perú.</p>
+                <a href="#" class="px-4 py-2 my-5 border border-white rounded-tl-lg rounded-br-lg hover:bg-blue-700 hover:border-blue-700">Conoce más</a>
+            </div>
+        </section><!--Punta sal-->
+        <section class="w-full h-screen bg-ceviche-conchas bg-cover bg-center">
+            <div class="w-full h-full px-16 bg-gray-900 bg-opacity-75 flex flex-col items-start justify-center text-white">
+                <h2 class="text-6xl font-bold leading-none">Ceviche de <br> Conchas negras</h2>
+                <p class="w-2/3 text-2xl my-5">Las conchas negras viven en los bosques de los Manglares de Tumbes. Su sabor es muy intenso y tiene la fama de ser un potente afrodisiaco.</p>
+                <a href="#" class="px-4 py-2 my-5 border border-white rounded-tl-lg rounded-br-lg hover:bg-blue-700 hover:border-blue-700">Conoce más</a>
+            </div>
+        </section><!--Ceviche de conchas negras-->
+        <section class="w-full h-screen bg-marinera bg-cover bg-center">
+            <div class="w-full h-full px-16 bg-gray-900 bg-opacity-75 flex flex-col items-start justify-center text-white">
+                <h2 class="text-6xl font-bold leading-none">Marinera</h2>
+                <p class="w-2/3 text-2xl my-5">Es un baile de pareja, en donde la mujer coquetea al hombre con picardía y astucia, mientras este le acompaña galantemente.</p>
+                <a href="#" class="px-4 py-2 my-5 border border-white rounded-tl-lg rounded-br-lg hover:bg-blue-700 hover:border-blue-700">Conoce más</a>
+            </div>
+        </section><!--Danza marinera-->
+    </main>
+    <footer class="w-full bg-gray-900 flex flex-col justify-between items-center">
+        <span class="py-4 font-bold text-white">Esmith AS &copy; 2020</span>
+    </footer>
 </body>
 </html>
