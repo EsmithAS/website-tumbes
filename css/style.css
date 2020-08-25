@@ -30,3 +30,33 @@ a {
 .bg-manglares {
     background-image: url(../img/Lugares/Manglares.jpg);
 }
+
+/*background platos*/
+.bg-platos {
+    background-image: url(../img/Platos/portada\ platos.png);
+}
+.bg-ceviche-conchas {
+    background-image: url(../img/Platos/conchas\ negras.png);
+}
+.bg-chicharron {
+    background-image: url(../img/Platos/chicharron.png);
+}
+.bg-majarisco {
+    background-image: url(../img/Platos/majarisco.png);
+}
+.bg-ceviche {
+    background-image: url(../img/Platos/ceviche.jpg);
+}
+.bg-mariscos {
+    background-image: url(../img/Platos/Arroz\ con\ mariscos.png);
+}
+.bg-parihuela {
+    background-image: url(../img/Platos/parihuela.png);
+}
+.plato-info {
+    right: 100%;
+    transition: .5s;
+}
+.plato:hover .plato-info{
+    right: 0;
+}
