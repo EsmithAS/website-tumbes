@@ -1,6 +1,8 @@
 a {
     transition: .5s;
 }
+
+/*background index*/
 .bg-collage {
     background-image: url(../img/collage.jpg);
 }
@@ -12,4 +14,19 @@ a {
 }
 .bg-marinera {
     background-image: url(../img/Danzas/Portada.jpg);
+}
+
+
+/*background lugares*/
+.bg-lugares {
+    background-image: url(../img/Lugares/Portada\ lugares.jpg);
+}
+.bg-amotape {
+    background-image: url(../img/Lugares/Cerros\ de\ Amotape.jpg);
+}
+.bg-zorritos {
+    background-image: url(../img/Lugares/Balneario\ zorritos.jpg);
+}
+.bg-manglares {
+    background-image: url(../img/Lugares/Manglares.jpg);
 }
