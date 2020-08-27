@@ -60,3 +60,20 @@ a {
 .plato:hover .plato-info{
     right: 0;
 }
+
+/*background danzas*/
+.bg-danzas {
+    background-image: url(../img/Danzas/Portada.jpg);
+}
+.bg-huayno {
+    background-image: url(../img/Danzas/huayno.jpg);
+}
+.bg-negroides {
+    background-image: url(../img/Danzas/danza\ negroide.jpg);
+}
+.bg-marinera {
+    background-image: url(../img/Danzas/marinera2.jpg);
+}
+.bg-platano {
+    background-image: url(../img/Danzas/danza\ de\ los\ platanos.JPG);
+}
