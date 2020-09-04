@@ -10,13 +10,19 @@
 </head>
 <body>
     <header>
-        <div id="menu" class="w-full h-auto fixed mt-5 z-10">
-            <ul class="flex flex-wrap items-center justify-center">
-                <li><a href="../index.html" class="block w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Inicio</a></li>
-                <li><a href="lugares.html" class="block w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Lugares <br> Turísticos</a></li>
-                <li><a href="../index.html" class="block w-24 md:w-32 h-16 flex items-center justify-center bg-blue-400 bg-opacity-75"><img loading="lazy" src="../img/Escudo-Tumbes.png" alt=""></a></li>
-                <li><a href="platos.html" class="block w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Platos <br> Típicos</a></li>
-                <li><a href="danzas.html" class="block w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Danzas</a></li>
+        <div id="menu" class="w-full h-auto fixed mt-0 sm:mt-5 z-10">
+            <div class="absolute top-0 block sm:hidden">
+                <a href="../index.html" class="w-20 h-16 flex items-center justify-center"><img src="../img/Escudo-Tumbes.png" alt=""></a>
+            </div>
+
+            <div class="relative block sm:hidden text-white w-full flex justify-end"><button id="btnMenu" class="p-2 focus:outline-none"><svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></button></div>
+
+            <ul id="itemsMenu" class="w-1/2 sm:w-full absolute right-0 sm:right-auto overflow-hidden sm:overflow-visible h-0 sm:h-auto flex flex-wrap flex-col sm:flex-row items-center justify-center z-20 text-sm md:text-base">
+                <li class="w-full sm:w-auto"><a href="../index.html" class="block w-full sm:w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Inicio</a></li>
+                <li class="w-full sm:w-auto"><a href="lugares.html" class="block w-full sm:w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Lugares <br> Turísticos</a></li>
+                <li class="hidden sm:block"><a href="../index.html" class="block w-20 sm:w-24 md:w-32 h-16 flex items-center justify-center bg-transparent sm:bg-blue-400 bg-opacity-0 sm:bg-opacity-75"><img src="../img/Escudo-Tumbes.png" alt=""></a></li>
+                <li class="w-full sm:w-auto"><a href="platos.html" class="block w-full sm:w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Platos <br> Típicos</a></li>
+                <li class="w-full sm:w-auto"><a href="danzas.html" class="block w-full sm:w-24 md:w-32 h-16 flex items-center justify-center text-center font-bold text-white bg-blue-400 bg-opacity-75 border-b-4 border-blue-400 border-opacity-0 hover:border-blue-700 hover:bg-blue-500">Danzas</a></li>
             </ul>
         </div><!--Menu-->
         <div class="w-full h-screen bg-danzas bg-cover bg-center relative">
@@ -29,38 +35,38 @@
     </header>
     <main>
         <section class="w-full flex-wrap flex justify-around my-5">
-            <div class="w-5/12 flex m-5">
-                <div class="w-3/5 bg-huayno bg-cover bg-center">
+            <div class="w-full sm:w-5/12 flex flex-row sm:flex-col md:flex-row m-5 overflow-hidden">
+                <div class="w-3/5 sm:p-40 md:p-0 bg-huayno bg-cover bg-center">
                 </div><!--Banner-->
-                <div class="w-2/5 bg-gray-400 text-gray-900 px-5 py-4">
-                    <h2 class="font-bold text-2xl my-2">Huayno</h2>
+                <div class="h-full w-2/5 sm:w-full md:w-2/5 bg-gray-400 text-gray-900 px-5 py-4">
+                    <h2 class="font-bold text-xl sm:text-2xl my-2">Huayno</h2>
                     <p class="text-sm text-justify">Este baile también está vinculado al cortejo de parejas, cuenta con 3 tiempos: uno lento a modo de saludo, un climas en el que se incluye un fuerte zapateo y la parte final que simula la elección de una pareja.</p>
                 </div>
             </div><!--cont danza Huayno-->
             
-            <div class="w-5/12 flex m-5">
-                <div class="w-3/5 bg-negroides bg-cover bg-center">
+            <div class="w-full sm:w-5/12 flex flex-row sm:flex-col md:flex-row m-5 overflow-hidden">
+                <div class="w-3/5 sm:p-40 md:p-0 bg-negroides bg-cover bg-center">
                 </div><!--Banner-->
-                <div class="w-2/5 bg-gray-400 text-gray-900 px-5 py-4">
-                    <h2 class="font-bold text-2xl my-2">Los negroides</h2>
+                <div class="h-full w-2/5 sm:w-full md:w-2/5 bg-gray-400 text-gray-900 px-5 py-4">
+                    <h2 class="font-bold text-xl sm:text-2xl my-2">Los negroides</h2>
                     <p class="text-sm text-justify">La melodía para este baile es interpretada por guitarristas y el cajón peruano, la vestimenta consta de dos piezas cómodas holgadas, tanto hombres como mujeres.</p>
                 </div>
             </div><!--cont danza de los negroides-->
 
-            <div class="w-5/12 flex m-5">
-                <div class="w-3/5 bg-marinera bg-cover bg-center">
+            <div class="w-full sm:w-5/12 flex flex-row sm:flex-col md:flex-row m-5 overflow-hidden">
+                <div class="w-3/5 sm:p-40 md:p-0 bg-marinera bg-cover bg-center">
                 </div><!--Banner-->
-                <div class="w-2/5 bg-gray-400 text-gray-900 px-5 py-4">
-                    <h2 class="font-bold text-2xl my-2">Marinera</h2>
+                <div class="h-full w-2/5 sm:w-full md:w-2/5 bg-gray-400 text-gray-900 px-5 py-4">
+                    <h2 class="font-bold text-xl sm:text-2xl my-2">Marinera</h2>
                     <p class="text-sm text-justify">Las damas suelen bailar descalzas y usando amplios vestidos de faldas anchas de color blanca, los caballeros suelen vestir con pantalón y camisa negra.</p>
                 </div>
             </div><!--cont plato ceviche conchas-->
 
-            <div class="w-5/12 flex m-5">
-                <div class="w-3/5 bg-platano bg-cover bg-center">
+            <div class="w-full sm:w-5/12 flex flex-row sm:flex-col md:flex-row m-5 overflow-hidden">
+                <div class="w-3/5 sm:p-40 md:p-0 bg-platano bg-cover bg-center">
                 </div><!--Banner-->
-                <div class="w-2/5 bg-gray-400 text-gray-900 px-5 py-4">
-                    <h2 class="font-bold text-2xl my-2">Cosecha del plátano</h2>
+                <div class="h-full w-2/5 sm:w-full md:w-2/5 bg-gray-400 text-gray-900 px-5 py-4">
+                    <h2 class="font-bold text-xl sm:text-2xl my-2">Cosecha del plátano</h2>
                     <p class="text-sm text-justify">Se baila luego de la finalización del recogimiento de la cosecha de plátanos enmarcado en las fiestas o jolgorios.</p>
                 </div>
             </div><!--cont plato ceviche conchas-->
@@ -69,4 +75,6 @@
     <footer class="w-full bg-gray-900 flex flex-col justify-between items-center">
         <span class="py-4 font-bold text-white">Esmith AS &copy; 2020</span>
     </footer>
+    <script src="../js/app.js"></script>
 </body>
+</html>
